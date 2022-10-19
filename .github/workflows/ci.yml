@@ -47,5 +47,3 @@ jobs:
       run: mypy fizzbuzz.py
     - name: Run isort
       run: isort --profile black fizzbuzz.py
-    - name: tests
-      run: pytest
